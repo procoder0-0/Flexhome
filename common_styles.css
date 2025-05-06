@@ -1,0 +1,170 @@
+@media (min-aspect-ratio: 1920/1050) and (min-width: 768px) {
+    html {
+        font-size: 0.09523809523vh;
+    }
+}
+
+@media (max-aspect-ratio: 1920/1050) and (min-width: 768px) {
+    html {
+        font-size: 0.05208333333vw;
+    }
+}
+
+@media (min-aspect-ratio: 3/4) and (max-width: 768px) {
+    html {
+        font-size: 0.09765625vh;
+    }
+}
+
+@media (max-aspect-ratio: 3/4) and (max-width: 768px) {
+    html {
+        font-size: 0.13020833333vw;
+    }
+}
+
+@media (min-aspect-ratio: 9/20) and (max-width: 480px) {
+    html {
+        font-size: 0.09375058594vh;
+    }
+}
+
+@media (max-aspect-ratio: 9/20) and (max-width: 480px) {
+    html { 
+        font-size: 0.20833333333vw;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    line-height: 1.125;
+    box-sizing: border-box;
+}
+
+.mt-36{
+    margin-top: 36rem;
+} 
+.mt-48{
+    margin-top: 48rem;
+}
+.mt-24{
+    margin-top: 24rem;
+} 
+.mt-18{
+    margin-top: 18rem;
+} 
+.mt-12{
+    margin-top: 12rem;
+} 
+.mr-24{
+    margin-right: 24rem;
+}
+.mr-36{
+    margin-right: 36rem;
+}
+.info-apartment{
+    flex: 0 0 auto;
+    width: 384rem;
+    height: 210rem;
+    padding: 24rem;
+    border-radius: 8rem;
+    border: 1rem solid #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+} 
+.img-apartment{
+    width: 162re;
+    height: 162rem;
+    border-radius: 8rem;
+} 
+.footer-icon{
+    width: 18rem;
+    height: 18rem;
+    margin-right: 12rem;
+} 
+.floor{
+    width: 48rem;
+    height: 48rem;
+    border-radius: 50%;
+    border: 1rem solid #3b3b3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+} 
+.arrow{
+    width: 36rem;
+    height: 12rem;
+} 
+.arrow-mb {
+    display: none;
+}
+.select-building-content{
+    border-right: 1rem solid #3B3B3B;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+.fs-16{
+    font-size: 16rem;
+} 
+.pr-36{
+    padding-right: 36rem;
+} 
+.mb-18{
+    margin-bottom: 18rem;
+} 
+.mb-12{
+    margin-bottom: 12rem;
+} 
+.fs-24{
+    font-size: 24rem;
+}
+.d-flex{
+    display: flex;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.white{
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px){
+    .mt-tl-36{
+        margin-top: 36rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .mt-mb-24{
+        margin-top: 24rem;
+    } 
+    .mt-mb-18{
+        margin-top: 18rem;
+    } 
+    .mr-mb-12{
+        margin-right: 12rem;
+    } 
+    .mr-mb-24{
+        margin-right: 24rem;
+    } 
+    .floor-mb{
+        width: 36rem;
+        height: 36rem;
+    } 
+    .arrow-mb{
+        width: 12rem;
+        height: 36rem;
+        display: block;
+    } 
+    .hidden-mb{
+        display: none;
+    } 
+    .fs-mb-12{
+        font-size: 12rem;
+    } 
+}

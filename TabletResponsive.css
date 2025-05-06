@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px){
+    .container{
+        width: 768rem;
+        height: 1024rem;
+        grid-template-columns: 670rem 98rem;
+    }
+
+    .content{
+        padding-top: 48rem;
+    }
+
+    .select-building-content{
+        padding-top: 8rem;
+        padding-bottom: 10rem;
+    }
+
+    .img-arrow{
+        margin-right: 24rem;
+    }
+
+    .apartment-info-container{
+        background-image: url(img/background_info_apartment_2.png);
+    }
+}

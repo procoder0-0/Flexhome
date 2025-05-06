@@ -1,0 +1,161 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 1920rem;
+    height: 1050rem;
+    display: grid;
+    grid-template-columns: 670rem 1250rem;
+    background-color: #FFFFFF;
+    
+}
+
+.content{
+    padding-top: 60rem;
+    padding-left: 48rem;
+    border: 0.2rem solid #000000;
+}
+
+.title{
+    font-size: 36rem;
+}
+
+.select-building{
+    width: 574rem;
+    height: 60rem;
+    padding: 12rem 0;
+    border-top: 1rem solid #3B3B3B;
+    border-bottom: 1rem solid #3B3B3B;
+}
+
+.icon-building{
+    width: 36rem;
+    height: 36rem;
+}
+
+.building{
+    width: 574rem;
+    gap: 48rem;
+}
+
+.img-building{
+    width: 334rem;
+    height: 588rem;
+    border-radius: 8rem;
+}
+
+.select-floor-building{
+    width: 192rem;
+    height: 578rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select-floor{
+    width: 192rem;
+    padding: 18rem 0;
+    border-top: 1rem solid #3B3B3B;
+    border-bottom: 1rem solid #3B3B3B;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 24rem;
+}
+
+.select-floor-title{
+    position: absolute;
+    top: -12rem;
+    left: 44rem;
+    padding: 2rem 12rem;
+    background: #FFFFFF;
+    color: #3B3B3B;
+    font-weight: 700;
+}
+
+.footer-content{
+    width: 574rem;
+    height: 48rem;
+    gap: 93rem;
+}
+
+.img-footer{
+    width: 168rem;
+    height: 48rem;
+}
+
+.contact-footer{
+    width: 313rem;
+    height: 18rem;
+}
+
+.apartment-info-container{
+    padding-top: 72rem;
+    background-image: url('img/background_info_apartment.png');
+    overflow: hidden;
+    background-size: cover;
+}
+
+.apartment-map{
+    justify-content: flex-start;
+}
+
+.img-arrow{
+    width: 36rem;
+    height: 144rem;
+    margin-top: 204rem;
+    margin-right: 240rem;
+    margin-bottom: 276rem;
+}
+
+.img-apartment-map{
+    width: 698rem;
+    height: 624rem;
+}
+
+.compass{
+    width: 96rem;
+    height: 96rem;
+}
+
+.footer-apartment-info{
+    width: 1250rem;
+    padding-top: 24rem;
+    padding-left: 24rem;
+    padding-bottom: 24rem;
+    background-color: #00000033;
+    gap: 24rem;
+    overflow-x: hidden;
+    flex-wrap: nowrap;
+}
+
+.info-apartment{
+    background-color: #0000001A;
+}
+
+.apartment-detail{
+    text-align: end;
+}
+
+
+.select-building p:hover{
+    color: #000000;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.select-floor div:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.info-apartment:hover{
+    background-color: #FFFFFF33;
+    cursor: pointer;
+}
